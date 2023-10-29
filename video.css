@@ -1,0 +1,104 @@
+  
+      .thumbnail-row{
+        width: 100%;
+  
+       
+      }
+     
+      .channel-picture{
+        width: 40px;
+        
+        display: inline-block;
+       vertical-align: top; 
+
+      }
+      .video-info{
+        width: 150px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .profile-picture{
+        width: 36px;
+        border-radius: 50px;
+        display: inline-block;
+        cursor: pointer;
+        
+      }
+      .video-title{
+        margin-top: 0;
+        margin-bottom: 8px;
+        line-height: 20px;
+        width: 100%rj ,.;
+      }
+      .video-author{
+        margin-top: 0;
+        margin-bottom: 6px;
+        color: rgb(96, 96, 96);
+        font-size: 12px;
+        font-family: roboto,arial;
+      }
+      .video-stat{
+        margin-top: 0;
+        color: rgb(96, 96, 96);
+        font-size: 12px;
+        font-family: roboto,arial;
+      }
+      
+     
+      .main-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 300px;
+        column-gap: 16px;
+        row-gap: 40px;
+       
+      }
+      @media(max-width:750px) {
+        .main-grid{
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media(min-width: 751px) and (max-width:999px)
+      {
+        .main-grid{
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+      }
+      @media(min-width:1000px){
+        .main-grid{
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+      }
+      .video-title{
+        font-family: roboto, arial;
+        width: 200px;
+        text-decoration-color: rgb(0, 0, 0);
+        font-weight: 500;
+        margin-bottom: 0;
+        margin-top: 12px;
+        font-size: 14px;
+      }
+      .thumbnail{
+        position: relative;
+        cursor: pointer;
+      
+      }
+      .video-time{
+        background-color: black;
+        position: absolute;
+        color: white;
+        right: 5px;
+        bottom: 10px;
+        font-family: roboto, arial;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 2px;
+        
+      }
+     
+      
